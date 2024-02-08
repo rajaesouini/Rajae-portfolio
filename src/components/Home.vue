@@ -1,7 +1,7 @@
 <template>
   <Welcome />
   <div class="home-container" ref="tiltElement">
-    <img src="/public/autoportrait.png" />
+    <img src="/autoportrait.png" />
     <h2>Rajae Casado Souini</h2>
     <p>Web developer Vuejs & React</p>
   </div>
