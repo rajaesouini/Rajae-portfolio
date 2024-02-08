@@ -1,7 +1,7 @@
 <template>
     <div class="about-container" ref="tiltElement">
         <h2>HELLO !</h2>
-        <p>I am Rajae, a web developer and web designer, passionate about new technologies and digital. Outside the digital world, I am an endurance athlete, particularly in Ultra long-distance running. I love combining my two passions and finding synergies between sports and technology.</p>
+        <p>I am Rajae, a web developer and web designer passionate about new technologies and digital. As a web developer, I master technologies such as HTML, CSS, Sass, SQL, Node.js, and TypeScript. Additionally, I am proficient in using creative software such as Adobe, Figma, and Canva, enabling me to bring my ideas to life with creativity and efficiency. Outside the digital realm, I am an endurance athlete, particularly in ultra long-distance running. I love combining my two passions and finding synergies between sports and technology.</p>
     </div>
 </template>
 
