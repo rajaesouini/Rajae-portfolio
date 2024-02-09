@@ -5,16 +5,16 @@
     </div>
     <div v-if="!isMenuOpen">
       <section class="bubble home" ref="homeBubble">
-        <router-link to="/">Home</router-link>
+        <router-link to="/" exact>Home</router-link>
       </section>
       <section class="bubble about" ref="aboutBubble">
-        <router-link to="/About">About</router-link>
+        <router-link to="/About" exact>About</router-link>
       </section>
       <section class="bubble project" ref="projectBubble">
-        <router-link to="/Project">Project</router-link>
+        <router-link to="/Project" exact>Project</router-link>
       </section>
       <section class="bubble contact" ref="contactBubble">
-        <router-link to="/Contact">Contact</router-link>
+        <router-link to="/Contact" exact>Contact</router-link>
       </section>
     </div>
   </div>
@@ -136,6 +136,12 @@ export default {
   font-size: 1rem;
   cursor: pointer;
   opacity: 0;
+}
+.bubble:hover {
+  text-decoration: underline;
+}
+.bubble:active {
+  text-decoration: underline;
 }
 
 .bubble.show {
