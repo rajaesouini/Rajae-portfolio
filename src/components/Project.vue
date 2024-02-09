@@ -1,19 +1,19 @@
 <template>
     <div class="project">
         <section class="project-container" >
-            <a href="https://www.carrefour.fr/">Carrefour Design Systeme
+            <a href="https://www.carrefour.fr/" target="_blank">Carrefour Design Systeme
                 <i class="fas fa-arrow-circle-right"></i>
             </a>
             <p>From January 2023 to January 2024, I contributed to Carrefour's design system by creating components in Vue.js, Sass, JS,  and React.</p>
         </section>
         <section class="project-container">
-            <a href="https://www.letrun.fr/">Let Run
+            <a href="https://www.letrun.fr/" target="_blank">Let Run
                 <i class="fas fa-arrow-circle-right"></i>
             </a>
             <p>I created a project using Vue.js, SQL, Node.js, JS and Sass for the resale of sports equipment among runners.</p>
         </section>
         <section class="project-container">
-            <a href="https://studiomillefeuilles.fr/">Studio Millefeuilles
+            <a href="https://studiomillefeuilles.fr/" target="_blank">Studio Millefeuilles
                 <i class="fas fa-arrow-circle-right"></i>
             </a>
             <p>Collaboration with culinary designer Laura Albier for the creation of her web application.</p>

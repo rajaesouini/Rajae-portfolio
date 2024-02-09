@@ -209,19 +209,25 @@ export default {
   .line-wrapper {
     display: none;
   }
-
+  
   .bubble {
     display: none;
   }
-
+  
   /* Styles pour le menu burger */
-
+  
   .menu {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     padding: 20px;
+  }
+  .menu a:hover {
+    color: #000000;
+    background: #fff;
+    padding: 8px;
+    border-radius: 30px;
   }
   .burger-menu {
     display: flex;
@@ -246,6 +252,7 @@ export default {
     border-radius: 2px;
     margin: 3px;
   }
+
 }
 @media screen and (max-width: 280px) and (max-height: 653px) {
   .menu-content{
