@@ -42,6 +42,11 @@
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
+  transition: .5s ease-in-out;
+}
+
+.project-container:hover {
+    font-size: 14px;
 }
 
 .project-container p{
@@ -54,4 +59,18 @@
   color: black;
   border-radius: 20px;
 }
+
+@media screen and (max-width: 280px) and (max-height: 653px) {
+  .project-container {
+    width: 80%;
+    margin-left: 12px;
+    margin-top: 40px;
+    font-size: 13px;
+    line-height: 2.5;
+  }
+  .project-container a {
+    font-size: 13px;
+    line-height: 2.5;
+  }
+  }
 </style>

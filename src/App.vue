@@ -242,9 +242,17 @@ export default {
   }
 }
 @media screen and (max-width: 280px) and (max-height: 653px) {
+  .menu-content{
+    padding-left: 0;
+    padding-right: 25px;
+  }
   .menu-content a {
   color: white;
   margin-top: 50px;
+}
+.menu-content a:hover{
+  text-decoration: underline;
+
 }
   }
 </style>

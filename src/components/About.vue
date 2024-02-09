@@ -34,10 +34,23 @@ onMounted(() => {
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
+  transition: .5s ease-in-out;
+}
+
+.about-container:hover {
+    font-size: 14px;
 }
 
 .about-container p{
   margin: 10px;
   line-height: 1.5;
 }
+@media screen and (max-width: 280px) and (max-height: 653px) {
+  .about-container {
+    width: 80%;
+    margin: 13px;
+    font-size: 13px;
+    line-height: 2.5;
+  }
+  }
 </style>

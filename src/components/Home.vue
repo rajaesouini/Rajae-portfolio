@@ -37,8 +37,12 @@ onMounted(() => {
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
+  transition: .5s ease-in-out;
 }
 
+.home-container:hover {
+    font-size: 14px;
+}
 .home-container p{
   margin: 10px;
 }
@@ -46,9 +50,11 @@ onMounted(() => {
 .home-container img {
   width: 200px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 280px) and (max-height: 653px) {
   .home-container {
     padding: 10px;
+    margin: 5px;
+    width: 85%;
   }
-}
+  }
 </style>

@@ -46,7 +46,7 @@ export default {
   background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(5px);
   border-radius: 2px;
-  position: fixed;
+  position: absolute;
   bottom: 500px;
   left: 0;
   z-index: 1;
@@ -69,7 +69,6 @@ export default {
     width: 100%;
     position: fixed;
     bottom: 0;
-    top: 90%;
     left: 0;
     right: 0;
     
@@ -79,4 +78,13 @@ export default {
   
 }
 }
+@media screen and (max-width: 280px) and (max-height: 653px) {
+  .footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;  
+  }
+  }
 </style>

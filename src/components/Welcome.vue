@@ -55,5 +55,13 @@
       font-size: 20px;
     }
   }
+  @media screen and (max-width: 280px) and (max-height: 653px) {
+    h1 {
+      font-size: 15px;
+      text-align: center;
+      padding-top: 20px;
+      padding-right: 30px;
+    }
+  }
   </style>
   

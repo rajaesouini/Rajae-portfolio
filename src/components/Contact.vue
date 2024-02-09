@@ -58,8 +58,12 @@ function startAnimation() {
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
+  transition: .5s ease-in-out;
 }
 
+.contact-container:hover {
+    font-size: 14px;
+}
 .contact-container p{
   margin: 10px;
   line-height: 1.5;
@@ -90,4 +94,13 @@ function startAnimation() {
   display: inline-block; 
   overflow: hidden; 
 }
+@media screen and (max-width: 280px) and (max-height: 653px) {
+  .contact-container {
+    width: 80%;
+    margin-left: 12px;
+    margin-top: 100px;
+    font-size: 13px;
+    line-height: 2.5;
+  }
+  }
 </style>
